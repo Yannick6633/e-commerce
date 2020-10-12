@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(212, 204, 204);
+    font-family: sans-serif;
+}
+
+/* Accueil */
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+/* Popular Brands */
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.heading {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 20%;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 100%;
+    }
+    .heading {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .card {
+        width: 80%;
+    }
+}
+
+/* Our Reviews */
+
+.container2 {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.heading2 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card2 {
+    width: 20%;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    background: #fff;
+}
+
+.card-header {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 30px; 
+    
+}
+   
+.card-body > p {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+    
+p {
+    margin-top: 10rem;
+}
+    
+h2 {
+    margin: 20px;
+    font-size: 20px;
+}      
+
+.card2:hover {
+    transform: scale(1.05);
+    background: black;
+    color: #fff;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+    .card2 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container2 {
+        width: 100%;
+    }
+    .heading2 {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .card2 {
+        width: 80%;
+    }
+}
+
+/* Featured News */ 
+
+.black {
+    background: linear-gradient(to left,  #07034f, #12103d);
+}
+
+.container3 {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.heading3 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: 0.3s;
+    padding: 6px;
+    margin-bottom: 25px;
+    overflow: auto;
+   
+}
+
+.photo:last-child::after {
+    display: block;
+    width: 11px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    visibility: hidden;
+    content: "";
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+
+  
+    
+  
+   
+   
+
+
+
+
